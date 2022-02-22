@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import random
 from statistics import mean
 
-df = pd.read_csv("SSO.csv")
+df = pd.read_csv("SSO2.21.2022.csv")
 df = df[["Date","SSO","SPY","SSO Return","SPY Return"]]
 df.dropna(inplace=True)
 
